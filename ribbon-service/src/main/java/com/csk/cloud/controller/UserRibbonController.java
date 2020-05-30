@@ -1,6 +1,6 @@
 package com.csk.cloud.controller;
 
-import common.CommonResult;
+import com.csk.cloud.common.CommonResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 /**
- * @description:
+ * @description: springcloud-ribbon负载均衡
  * @author: caishengkai
  * @time: 2020/5/28 17:35
  */

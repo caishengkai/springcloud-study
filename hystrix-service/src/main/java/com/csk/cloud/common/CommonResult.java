@@ -1,4 +1,4 @@
-package common;
+package com.csk.cloud.common;
 
 /**
  * @description: 封装通用返回对象

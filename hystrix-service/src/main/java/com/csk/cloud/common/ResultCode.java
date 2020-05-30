@@ -1,4 +1,4 @@
-package common;
+package com.csk.cloud.common;
 
 /**
  * @description: 返回结果CODE操作码
