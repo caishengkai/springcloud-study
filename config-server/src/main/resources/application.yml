@@ -1,22 +1,17 @@
 server:
-  port: 8905
+  port: 8901
 spring:
   application:
-    name: config-security-server
+    name: config-server
   cloud:
     config:
       server:
-        git:
+        git: #配置存储配置信息的Git仓库
           uri: https://github.com/caishengkai/-springcloud-config.git
           username: csk
           password: 123456
-          clone-on-start: true #开启启动时直接从git获取配置
           skipSslValidation: true
-          search-paths: '{application}'
-  security: #配置用户名和密码
-    user:
-      name: csk
-      password: 123456
+          clone-on-start: true #开启启动时直接从git获取配置
 eureka:
   client:
     service-url:
